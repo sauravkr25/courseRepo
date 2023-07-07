@@ -47,5 +47,10 @@ public class Controller {
         }
     }
 
+    @GetMapping("/error")
+    public String throwError(){
+        return "Error method executed";
+    }
+
 
 }
